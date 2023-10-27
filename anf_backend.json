@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "storageDriverName": "azure-netapp-files",
+    "subscriptionID": "a03cfa5e-a233-4b82-9946-6aafa420e1e4",
+    "tenantID": "bf8aa3a3-ba5e-47f1-8e94-d736c547c1c6",
+    "clientID": "904bc218-af55-4ad1-b9ec-4ed6df83d5e4",
+    "clientSecret": "._D8Q~sihS3CNYV4EYu2VZ3o2BuDEW3UoUjuEbWX",
+    "location": "westeurope",
+    "serviceLevel": "Standard",
+    "virtualNetwork": "aks-vnet-13835138",
+    "subnet": "anf-subnet",
+    "networkFeatures": "Standard",
+    "nfsMountOptions": "vers=3,proto=tcp,timeo=600",
+    "limitVolumeSize": "500Gi",
+    "defaults": {
+        "exportRule": "0.0.0.0/0",
+        "size": "200Gi",
+        "unixPermissions": "0755"
+    }
+}
